@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../projeto-prova/icone/icone.png">
+    <title>UniCode</title>
+</head>
+<body>
+    <a href="../projeto-prova/pg-sobre.html"><img src="../projeto-prova/icone/icone.png" alt=""></a>
+    <h1 id="titulo">Bem-Vindo a <span style="color:#CF189E">Uni</span>Code!</h1>
+    <p>Para iniciar a prova coloque seu nome, sobrenome e e-mail nos campos abaixo:</p>
+    <form method="GET" action="../projeto-prova/pg-prova.html">
+        <fieldset>
+            <div class="grupo">
+                <label  for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div id="sbnome">
+                <label  for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+        <div class="grupo">
+            <label  for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+        </div>       
+        <button id="btn" type="submit">Iniciar</button>
+        </form>
+        <div id="foot"><footer>Copyright © 2021 | UniCode</footer></div>       
+</body>
+</html>
