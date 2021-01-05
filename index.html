@@ -16,21 +16,29 @@
         <p>Para iniciar a prova coloque seu nome, sobrenome e e-mail nos campos abaixo:</p>
     </div>
     <form>
-        <div class="input-group">
+        <div class="input-group d-flex justify-content-center">
             <div class="col-xs-4">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                <input id="email" type="email" class="form-control" name="email" placeholder="E-mail" required>
+                <input id="nome" type="text" class="form-control" name="nome" placeholder="Digite seu Nome" required>
             </div>
         </div>
-        <div class="input-group">
+        <div class="input-group d-flex justify-content-center">
             <div class="col-xs-4">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                <input id="password" type="password" class="form-control" name="password" placeholder="Senha" required>
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input id="sobrenome" type="text" class="form-control" name="sobrenome" placeholder="Digite seu Sobrenome" required>
             </div>
         </div>
+        <div class="input-group d-flex justify-content-center">
+            <div class="col-xs-4">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input id="email" type="email" class="form-control" name="email" placeholder="Digite seu E-mail" required>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
         <button type="submit" class="btn botao">Iniciar</button>
-        <div id="foot"><footer>Copyright © 2021 | UniCode</footer></div> 
-    </form>      
+        </div> 
+    </form>
+    <div id="foot"><footer>Copyright © 2021 | UniCode</footer></div>      
 </body>
 </html>
 
