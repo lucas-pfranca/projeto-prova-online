@@ -1,0 +1,18 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: #1a1e1b;
+}
+
+.botao {
+  background-color: #cf189e;
+  color: white;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #800d61;
+  color: white;
+}

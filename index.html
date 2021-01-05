@@ -5,53 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../projeto-prova-online/icone/icone.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../projeto-prova-online/css/style-index.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <title>UniCode</title>
 </head>
 <body>
-
     <a href="../projeto-prova/pg-sobre.html"><img src="../projeto-prova/icone/icone.png" alt=""></a>
-
     <div class="text-center">
         <h1 id="titulo">Bem-Vindo a <span style="color:#CF189E">Uni</span>Code!</h1>
         <p>Para iniciar a prova coloque seu nome, sobrenome e e-mail nos campos abaixo:</p>
     </div>
-
     <form>
-
-      <div class="input-group col-xs4">
-
-        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-
-        <input id="email" type="email" class="form-control" name="email" placeholder="Email" > 
-
-      </div>
-
-      <div class="input-group">
-
-        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-
-        <input id="password" type="password" class="form-control" name="password" placeholder="Password">
-
-      </div>
-
-      <br>
-
-      <div class="input-group">
-      
-    </form>
-
-        <div class="form-group">
-
-          <div class="col-sm-offset-2 col-sm-10">
-
-            <button type="submit" class="btn btn-default">Submit</button>
-
-          </div>
+        <div class="input-group">
+            <div class="col-xs-4">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input id="email" type="email" class="form-control" name="email" placeholder="E-mail" required>
+            </div>
         </div>
-      </form>
-
-        <div id="foot"><footer>Copyright © 2021 | UniCode</footer></div>       
+        <div class="input-group">
+            <div class="col-xs-4">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                <input id="password" type="password" class="form-control" name="password" placeholder="Senha" required>
+            </div>
+        </div>
+        <button type="submit" class="btn botao">Iniciar</button>
+        <div id="foot"><footer>Copyright © 2021 | UniCode</footer></div> 
+    </form>      
 </body>
 </html>
 
