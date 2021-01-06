@@ -13,6 +13,24 @@ body {
 }
 
 .botao:hover {
-  background-color: #800d61;
+
+  filter: brightness(80%);
   color: white;
 }
+
+footer{
+
+  text-align: center;
+  background-color: #cf189e;
+
+}
+
+.foot{
+
+ 
+  position: fixed;
+  
+
+}
+
+
