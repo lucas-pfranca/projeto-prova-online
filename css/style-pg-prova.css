@@ -1,0 +1,36 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: #1a1e1b;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+
+.materia {
+  color: #cf189e;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.group {
+  font-size: 18px;
+}
+
+.cor {
+  color: #cf189e;
+}
+
+.botao {
+  background-color: #cf189e;
+  color: white;
+  cursor: pointer;
+}
+
+.botao:hover {
+  filter: brightness(80%);
+  color: white;
+}
