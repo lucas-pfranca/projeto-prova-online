@@ -1,0 +1,36 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: #1a1e1b;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  margin-top: 15%;
+  font-size: 50px;
+  color: #00ff7f;
+}
+
+p {
+  margin-top: 4%;
+  font-size: 20px;
+  color: #00ff7f;
+}
+
+a {
+  color: #cf189e;
+}
+
+a:hover {
+  color: white;
+}
+
+#a {
+  margin-top: 4%;
+  font-size: 15px;
+}
